@@ -73,6 +73,7 @@ export default function NavBar() {
           <ul className="menu menu-horizontal px-1">
             {status == "authenticated" ? (
               <>
+              <div className="flex justify-between">
                 <li>
                   <Image
                     src={session?.user?.image}
@@ -81,7 +82,8 @@ export default function NavBar() {
                     alt="user-logo"
                   />
                 </li>
-                <li onClick={() => signOut()}>Log Out</li>
+                <button className="p-2 btn  " onClick={() => signOut()}>Log Out</button>
+                </div>
               </>
             ) : (
               <>
