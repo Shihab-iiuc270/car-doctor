@@ -1,4 +1,4 @@
-import dbConnect, { collectionNamesObj } from '@/lib/dbConnect.'
+import dbConnect, { collectionNamesObj } from '@/lib/dbConnect'
 import Image from 'next/image'
 import Link from 'next/link';
 import React from 'react'
