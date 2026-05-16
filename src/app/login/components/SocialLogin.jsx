@@ -24,7 +24,7 @@ export default function SocialLogin() {
     <div className="flex justify-center gap-8">
       <p
         onClick={() => handleSocialLogin("google")}
-        className="bg-slate-200 rounded-full p-3"
+        className="bg-black-200 rounded-full p-3"
       >
         <FaGoogle type="button" />
       </p>
