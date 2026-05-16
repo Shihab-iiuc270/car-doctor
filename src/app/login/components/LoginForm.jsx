@@ -46,7 +46,7 @@ export default function LoginForm() {
           type="text"
           name="email"
           placeholder="Type here"
-          className="input input-bordered w-full"
+          className="input input-bordered w-full mb-2"
         />
       </label>
       <label className="form-control w-full">
@@ -57,7 +57,7 @@ export default function LoginForm() {
           type="password"
           name="password"
           placeholder="Type here"
-          className="input input-bordered w-full"
+          className="input input-bordered w-full mb-2"
         />
       </label>
       <button className="w-full h-12 bg-orange-500 text-white font-bold">

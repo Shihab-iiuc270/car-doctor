@@ -48,7 +48,7 @@ export default function RegisterForm() {
           className="input input-bordered w-full"
         />
       </label>
-      <button className="w-full h-12 bg-orange-500 text-white font-bold">
+      <button className="w-full h-12 bg-orange-500 text-white font-bold mt-2">
         Sign Up
       </button>
       <p className="text-center">Or Sign In with</p>

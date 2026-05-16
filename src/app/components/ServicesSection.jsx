@@ -6,7 +6,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 export default async function ServicesSection() {
   // const res = await fetch("/services.json");
-  const serviceCollection = dbConnect(collectionNamesObj.servicesCollection);
+  const serviceCollection =  dbConnect(collectionNamesObj.servicesCollection);
   const data = await serviceCollection.find({}).toArray();
   return (
     <div className="grid grid-cols-12 gap-4 container mx-auto">
